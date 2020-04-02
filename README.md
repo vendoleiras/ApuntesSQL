@@ -489,3 +489,4 @@ Nos mostrará el `name` y el `dept.name`, en caso de que este sea nulo se mostra
 SELECT teacher.name, COALESCE(dept.name,'None')
 FROM teacher LEFT JOIN dept ON teacher.dept=dept.id
 ```
+![Texto Alternativo](C:\Users\iagog\Pictures\mysql\mysql1.png)
